@@ -6,6 +6,7 @@ function PortfolioBlock(props) {
   const { image, live, source, title } = props;
   return (
     <Box
+      minHeight={'85vh'}
       display={'flex'}
       flexDirection={'column'}
       justifyContent={'center'}
