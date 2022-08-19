@@ -30,7 +30,9 @@ a:active {
 }
 
 img {
-  height: 400px;
+  max-height: 400px;
+  max-width: 100vw;
+  //height: 400px;
   box-shadow: 1px 1px 9px black;
   margin-top: 15px;
   border-radius: 8px;
